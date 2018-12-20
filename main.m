@@ -5,13 +5,12 @@ epsil=sqrt( 51.2*10.22 );
 sigm=0.2815; hslice=10;
 m=0.00048; vsk=1351;q=140;%helium
 
-%Пузырьковый слой
 Np=1;R=3;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 z0=5;y0=5;
-%изображение сферы:
-    ph=[0:pi/180:2*pi]; % или гуще 
-    zz=R*cos(ph)+z0; %x0 - центр окружности
+%Drawing spheres:
+    ph=[0:pi/180:2*pi]; 
+    zz=R*cos(ph)+z0; %z0 -center of sphere
     yy=R*sin(ph)+y0; 
     plot(zz,yy, 'LineWidth',1.3); hold on;
     
