@@ -1,7 +1,6 @@
 %program by Poteryaeva Valentina
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%метод трапеций для вычисления потенциала сферической углеродной
-%наночастицы
+%method trapecii (integration)
 function ui=method_trapeciiSphere(delta_for_theta, delta_for_r_int, zi,sigm,R2);
 theta=[0:delta_for_theta:pi];tmpu=zeros(1,length(theta));
 
